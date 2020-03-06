@@ -1,0 +1,436 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: rgb(241, 245, 245);
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(3, 17, 207);
+  font-weight: 800;
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/*-------------------hero-----------------------------------*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+.hero {
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+  background-image: url(./portfolio/code/assets/hero3.png);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.social-media-container {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  display: flex;
+}
+
+.social-media {
+  width: 50px;
+  height: 50px;
+  border: solid 3px rgb(3, 17, 207);
+  border-radius: 50%;
+  margin-right: 2em;
+  text-align: center;
+}
+
+.social-media img {
+  width: 75%;
+  padding: 3px;
+}
+
+.title {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title-text-block {
+  position: absolute;
+  left: 22%;
+  top: 35%;
+}
+
+.picture {
+  position: absolute;
+  right: 20%;
+  top: 35%;
+}
+
+.portrait {
+  width: 239px;
+  border: 2px solid #EFECCA;
+  border-radius: 150px;
+}
+
+h1.my-name {
+  font-size: 18px;
+}
+
+h1.title-header {
+  font-weight: 700;
+  font-size: 49px;
+  margin: 0;
+  width: 100%;
+}
+
+h1.sub-text {
+  font-size: 24px;
+}
+
+/*____________shared classes_________________________*/
+.narrow {
+  width: 30%;
+  text-align: center;
+}
+
+.red {
+  color: #DB5120;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.thin {
+  font-weight: 100;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.text {
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+.tech {
+  text-align: center;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+.sub-flex {
+  max-width: 40%
+}
+
+.text-larger {
+  font-size: 18px;
+}
+
+/*-------------------start of sections-----------------------------------*/
+
+.portfolio-section {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  text-align: center;
+  background: #DB5120;
+  color: #fff;
+  display: table-cell;
+  padding: 3px 5px 5px 5px;
+  display: inline-block;
+}
+
+/*-------------------section 1-----------------------------------*/
+.line-dot {
+  height: 3px;
+  width: 50px;
+  background-color: #DB5120;
+  position: relative;
+  float: left;
+  top: 12px;
+  margin-right: 10px;
+}
+
+.line-dot::after {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: #DB5120;
+  float: right;
+  top: -4px;
+  position: relative;
+  content: "";
+}
+
+.intro {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+/*-------------------section 2-----------------------------------*/
+.projects {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.project {
+  width: 40%;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.project-image {
+  width: 100%;
+  box-shadow: 4px 6px 21px -20px rgba(79, 76, 79, 1);
+
+}
+
+.tags {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tag {
+  font-size: 12px;
+  background: #E39179;
+  color: #fff;
+  padding: 0 5px;
+
+}
+
+/*-------------------more projects - part of section 2-----------------------------------*/
+.more-projects-heading {
+  margin-top: 50px;
+  color: #DB5120;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+/*-------------------section 6 - social media-----------------------------------*/
+
+.bottom-social-media-container {
+  justify-content: center;
+  display: flex;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+.bottom-social-media {
+  width: 75px;
+  height: 75px;
+  border: solid 4px #DB5120;
+  border-radius: 50%;
+  margin-right: 5em;
+  text-align: center;
+}
+
+.bottom-social-media img {
+  width: 70%;
+  margin-top: 7px;
+}
+
+/*-------------------footer-----------------------------------*/
+footer {
+  background-color: #112396;
+  padding: 60px;
+}
+
+.footer-container {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.footerHeader {
+  color: #fff;
+}
+
+.footer-container p {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+@media(max-width:375px) {
+  .git {
+    background-size: cover;
+  }
+
+  .social-media-container {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    display: flex;
+  }
+
+  .social-media {
+    width: 25px;
+    height: 25px;
+    border: solid 3px rgb(3, 17, 207);
+    border-radius: 50%;
+    margin-right: 2em;
+  }
+
+  .picture {
+    position: absolute;
+    right: 10%;
+    top: 29%;
+  }
+
+  .portrait {
+    width: 100px;
+    border: 2px solid #EFECCA;
+    border-radius: 150px;
+  }
+
+  .title {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .title-text-block {
+    position: absolute;
+    left: 12%;
+    top: 10%;
+  }
+
+  h1.my-name {
+    font-size: 13px;
+  }
+
+  h1.title-header {
+    font-size: 32px;
+  }
+
+  h1.sub-text {
+    font-size: 18px;
+  }
+
+  .heading {
+    font-size: 18px;
+  }
+
+  section.portfolio-section {
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 0;
+  }
+
+  .portfolio-section {
+    padding: 30px 0;
+  }
+
+  .portfolio-section p {
+    font-size: 12px;
+  }
+
+  .projects {
+    display: block;
+    padding-bottom: 10px;
+  }
+
+  .project {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  .bottom-social-media-container {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .more-projects-heading {
+    margin: 20px 0px;
+    font-size: 18px;
+  }
+
+  p {
+    margin: 5px 0;
+  }
+
+  .sub-project .tag {
+    margin-right: 5px;
+  }
+
+  .bottom-social-media-container {
+    max-width: 30%;
+  }
+
+  .bottom-social-media {
+    width: 30px;
+    height: 30px;
+    border: solid 2px #DB5120;
+    border-radius: 50%;
+    margin-right: 2em;
+    text-align: center;
+  }
+
+  .bottom-social-media img {
+    width: 70%;
+    margin-top: 7px;
+  }
+
+  .tags.sub-flex {
+    width: 300px;
+  }
+
+  .sub-flex {
+    max-width: 100%;
+  }
+
+  .hero {
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+
+  }
+
+  nav {
+    justify-content: space-around;
+    margin-left: 30px;
+  }
+
+
+}
